@@ -1,3 +1,3 @@
 # healthmonitoring
 
-Pasta interna a ~aosp-backup/device/devtitans/
+Pasta interna a ~/aosp-backup/device/devtitans/
