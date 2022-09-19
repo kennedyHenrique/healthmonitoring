@@ -22,7 +22,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.devtitans.hardware=ModelB
 
 # Seta o diretório de overlays
-PRODUCT_PACKAGE_OVERLAYS = device/devtitans/kraken/overlay
+PRODUCT_PACKAGE_OVERLAYS = device/devtitans/healthmonitoring/overlay
 
 # HealthMonitoring AIDL Interface
 PRODUCT_PACKAGES += devtitans.healthmonitoring
@@ -32,3 +32,8 @@ PRODUCT_PACKAGES += devtitans.healthmonitoring-service
 
 # Device Framework Matrix (Declara que o nosso produto HealthMonitoring precisa do serviço healthmonitoring)
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := device/devtitans/healthmonitoring/device_framework_matrix.xml
+
+#Para compilacao/instalacao dos modulos
+#PRODUCT_PACKAGES += \
+
+BOARD_SEPOLICY_DIRS += device/devtitans/healthmonitoring/sepolicy
