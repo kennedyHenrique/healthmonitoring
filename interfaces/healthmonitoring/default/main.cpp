@@ -9,7 +9,7 @@ int main() {
 
     ABinderProcess_setThreadPoolMaxThreadCount(0);
 
-    shared_ptr<HealthmonitoringService> healthmonitoring_service = SharedRefBase::make<HealthmonitoringService>();
+    shared_ptr<HealthMonitoringService> healthmonitoring_service = SharedRefBase::make<HealthMonitoringService>();
 
     const string instance = std::string() + IHealthmonitoring::descriptor + "/default";   // devtitans.healthmonitoring.IHealthmonitoring/default
     binder_status_t status = AServiceManager_addService(healthmonitoring_service->asBinder().get(), instance.c_str());

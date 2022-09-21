@@ -25,7 +25,7 @@ PRODUCT_PACKAGES += \
     healthmonitoring_client
 
 # Seta o diretório de overlays
-PRODUCT_PACKAGE_OVERLAYS = device/devtitans/healthmonitoring/overlay
+#PRODUCT_PACKAGE_OVERLAYS = device/devtitans/healthmonitoring/overlay
 
 # HealthMonitoring AIDL Interface
 PRODUCT_PACKAGES += devtitans.healthmonitoring

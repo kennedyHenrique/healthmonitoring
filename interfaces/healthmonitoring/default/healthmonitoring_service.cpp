@@ -1,7 +1,7 @@
 #include "healthmonitoring_service.h"
 
 namespace aidl::devtitans::healthmonitoring {
-    ndk::ScopedAStatus HealthmonitoringService::connect(int32_t* _aidl_return) {
+    ndk::ScopedAStatus HealthMonitoringService::connect(int32_t* _aidl_return) {
         *_aidl_return = this->healthmonitoring.connect();
         LOG(INFO) << "connect(): " << *_aidl_return;
         return ndk::ScopedAStatus::ok();

@@ -6,13 +6,13 @@
 
 #include <aidl/devtitans/healthmonitoring/BnHealthmonitoring.h>            // Criado pelo AIDL automaticamente
 
-#include "healthmonitoring.h"                                   // Classe Smartlamp (biblioteca)
+#include "healthmonitoring_lib.h"                                   // Classe HealthMonitoring (biblioteca)
 
 using namespace devtitans::healthmonitoring;
 
 namespace aidl::devtitans::healthmonitoring {
 
-class HealthMonitoring : public BnHealthmonitoring {
+class HealthMonitoringService : public BnHealthmonitoring {
     public:
         ndk::ScopedAStatus connect(int32_t* _aidl_return) override;
         ndk::ScopedAStatus getResistance(int32_t* _aidl_return) override;
