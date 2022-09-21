@@ -1,0 +1,2 @@
+# Define o rótulo do serviço AIDL healthmonitoring
+devtitans.healthmonitoring.IHealthmonitoring/default  u:object_r:healthmonitoring_service:s0

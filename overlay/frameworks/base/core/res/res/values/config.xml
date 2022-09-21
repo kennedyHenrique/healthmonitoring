@@ -1,2 +1,3 @@
 <!-- O que acontece ao se pressionar o botão power por um tempo longo -->
+<integer name="config_longPressOnPowerBehavior">2</integer><!-- O que acontece ao se pressionar o botão power por um tempo longo -->
 <integer name="config_longPressOnPowerBehavior">2</integer>
