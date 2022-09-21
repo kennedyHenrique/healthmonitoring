@@ -21,5 +21,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.devtitans.hardware=ModelB
 
+PRODUCT_PACKAGES += \
+    healthmonitoring_client
+
 # Seta o diretório de overlays
 PRODUCT_PACKAGE_OVERLAYS = device/devtitans/kraken/overlay

@@ -1,0 +1,9 @@
+cc_binary {
+    name:         "healthmonitoring_client",
+    srcs:         [ "healthmonitoring_client.cpp" ],
+
+    shared_libs:  [ "healthmonitoring_lib" ],
+    required:     [ "healthmonitoring_lib" ],
+
+    vendor: true
+}
