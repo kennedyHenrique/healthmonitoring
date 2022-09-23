@@ -24,6 +24,9 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     healthmonitoring_client
 
+# Manager
+PRODUCT_PACKAGES += devtitans.healthmonitoringmanager
+
 # Seta o diretório de overlays
 #PRODUCT_PACKAGE_OVERLAYS = device/devtitans/healthmonitoring/overlay
 
