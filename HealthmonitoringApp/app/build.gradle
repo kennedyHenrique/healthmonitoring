@@ -1,4 +1,4 @@
-plugins {
+  plugins {
     id 'com.android.application'
 }
 
@@ -32,7 +32,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-
+    implementation 'com.jjoe64:graphview:4.2.2'
     implementation files('/home/devtitans-1/aosp-backup/out/soong/.intermediates/device/devtitans/healthmonitoring/HealthmonitoringManager/devtitans.healthmonitoringmanager/android_common/javac/devtitans.healthmonitoringmanager.jar')
 
     testImplementation 'junit:junit:4.13.2'
