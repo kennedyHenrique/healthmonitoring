@@ -10,6 +10,7 @@ import android.widget.*;
 import android.os.RemoteException;
 
 import com.jjoe64.graphview.GraphView;
+import com.jjoe64.graphview.GridLabelRenderer;
 import com.jjoe64.graphview.Viewport;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
@@ -45,6 +46,14 @@ public class MainActivity extends AppCompatActivity {
         viewport.setMaxY(2200);
         viewport.setScrollable(true);
 
+
+        GridLabelRenderer gridLabel = graph.getGridLabelRenderer();
+        gridLabel.setHorizontalAxisTitle("Tempo");
+        gridLabel.setHorizontalAxisTitleTextSize(45);
+        gridLabel.setHorizontalAxisTitleColor(Color.BLUE);
+        gridLabel.setVerticalAxisTitle("Resist. Galvänica");
+        gridLabel.setVerticalAxisTitleTextSize(45);
+        gridLabel.setVerticalAxisTitleColor(Color.BLUE);
 
         //updateAll(null);
         start(null);

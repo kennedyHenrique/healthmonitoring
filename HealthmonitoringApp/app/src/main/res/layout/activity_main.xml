@@ -44,7 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
-            android:text="Int. Resistência:"
+            android:text="Resistência Galvânica da Pele:"
             android:textColor="#4e2358"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="@id/labelResistance"
             app:layout_constraintLeft_toLeftOf="@id/labelResistance"
-            android:layout_marginLeft="125dp"
+            android:layout_marginLeft="230dp"
             android:textColor="#c47e00"
             android:textSize="16sp" />
 
